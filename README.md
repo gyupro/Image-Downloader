@@ -1,5 +1,9 @@
 # Image Downloader
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
+## [中文说明](https://github.com/sczhengyabin/Image-Downloader/blob/master/README_zh.md)
+
 ## 1. Introdoction
 
 Crawl and download images using Selenium
