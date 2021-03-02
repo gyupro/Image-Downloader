@@ -1,8 +1,8 @@
 # Image Downloader
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+## 해당 프로젝트는 영어로 된 프로젝트를 한글로 옮겨 놓은것임. 원래 프로젝트는 아래 URL 참고
 
-## [中文说明](https://github.com/sczhengyabin/Image-Downloader/blob/master/README_zh.md)
+## [원본](https://github.com/sczhengyabin/Image-Downloader/blob/master/README.md)
 
 ## 1. Introdoction
 
