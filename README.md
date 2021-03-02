@@ -22,12 +22,12 @@ Selenium, python3, PyQt5를 이용하여 이미지를 다운로드하는 프로�
 
 ### 3.1 Python3.5이상 설치 및 다운로드
 
-+ 파이썬3.5이상 다운로드 [here](https://www.python.org/downloads/)
++ 파이썬3.5이상 다운로드 [다운로드](https://www.python.org/downloads/)
 
 ### 3.2 크롬드라이버 셋팅(필수) [recommend]
 
 + Chrome 또는 Chromium 브라우저가 설치되어있어야함
-+ 우측 링크로 크롬드라이버 다운로드. [here](https://chromedriver.chromium.org/downloads)
++ 우측 링크로 크롬드라이버 다운로드. [다운로드](https://chromedriver.chromium.org/downloads)
 + 다운로드 받은 크롬 드라이버를 ${project_directory}/bin/ 경로에 두거나 환경변수에 위치 추가. 
 + ex) Image-Downloader/bin/chromdriver.exe
 
