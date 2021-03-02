@@ -4,39 +4,36 @@
 
 ## [원본](https://github.com/sczhengyabin/Image-Downloader)
 
-## 1. Introdoction
+## 1. 소개
 
-Crawl and download images using Selenium
-Using python3 and PyQt5
+Selenium, python3, PyQt5를 이용하여 이미지를 다운로드하는 프로젝트
 
-## 2. Key features
+## 2. 주요 특징
 
-+ Supported Search Engine: Google, Bing, Baidu
-+ Keywords input from keyboard, or input from line seperated keywords list file for batch process.
-+ Download image using customizable number of threads.
-+ Fully supported conditional search (eg. filetype:, site:).
-+ Switch for Google safe mode.
-+ Proxy configuration (socks, http).
-+ CMD and GUI ways of using are provided.
++ 검색 엔진: Google, Bing, Baidu
++ 키워드 여러개로된 파일 또는 키워드 입력
++ 여러개의 쓰레드로 다운로드 가능
++ 조건부 검색 가능
++ 구글 안전모드로 스위치 가능
++ 프록시 설정 (socks, http).
++ CMD와 GUI 모두 지원.
 
-## 3. Install
+## 3. 설치
 
-### 3.1 Download and install Python3.5+
+### 3.1 Python3.5이상 설치 및 다운로드
 
-+ Download Latest version of Python3.5 installer from [here](https://www.python.org/downloads/)
++ 파이썬3.5이상 다운로드 [here](https://www.python.org/downloads/)
 
-### 3.2 Download and setup chromedriver [recommend]
+### 3.2 크롬드라이버 셋팅(필수) [recommend]
 
-+ Require Google Chrome Browser or Chromium Browser installed.
-+ Download the corresponding version of chromedriver from [here](https://chromedriver.chromium.org/downloads)
-+ Copy `chromedriver` binary to ${project_directory}/bin/ or add it to PATH.
++ Chrome 또는 Chromium 브라우저가 설치되어있어야함
++ 우측 링크로 크롬드라이버 다운로드. [here](https://chromedriver.chromium.org/downloads)
++ 다운로드 받은 크롬 드라이버를 ${project_directory}/bin/ 경로에 두거나 환경변수에 위치 추가. 
++ ex) Image-Downloader/bin/chromdriver.exe
 
-### 3.3 Download and setup phantomjs [deprecated]
++ 크롬 브라우저 버전이 안맞는다는 오류가 뜰경우, 크롬 부라우저 버전에 맞는 크롬드라이버 다운로드.
 
-+ Official phantomjs prebuilt executable can be downloaded from [here](https://bitbucket.org/ariya/phantomjs/downloads)
-+ Copy `phantomjs` to ${project_directory}/bin/ or add it to PATH.
-
-### 3.4 Install python packages
+### 3.3 파이썬 패키지 설치
 
 ```bash
 pip3 install -r requirements.txt
